@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #141a2f;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}

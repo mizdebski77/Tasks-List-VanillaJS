@@ -1,0 +1,25 @@
+.section {
+    border-radius: 5px;
+    border: 1px solid rgb(223, 140, 16);
+    padding: 0;
+    margin: 20px;
+}
+
+.section__header {
+    padding: 20px;
+    margin: 0;
+}
+
+.section__headerSecond {
+    margin: 0;
+}
+
+.section__gridButtons {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid white;
+    grid-gap: 20px;
+}
+
+

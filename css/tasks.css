@@ -1,0 +1,59 @@
+.tasks {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.tasks__list {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.tasks__list--hidden {
+    display: none;
+}
+
+.taskslist__toggleDoneButton {
+    height: 30px;
+    width: 30px;
+    background: rgb(9, 187, 9);
+    border: none;
+    transition: 0.5s;
+    color: white;
+}
+
+.taskslist__toggleDoneButton:hover {
+    background: rgb(21, 202, 21);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.taskslist__toggleRemoveButton {
+    height: 30px;
+    width: 30px;
+    background: red;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.taskslist__toggleRemoveButton:hover {
+    background: rgb(192, 74, 74);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.taskslist__toggleRemoveButton:active {
+    background: rgb(207, 99, 99);
+
+}
+
+.task--done {
+    text-decoration: line-through;
+}
