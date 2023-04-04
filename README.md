@@ -1,1 +1,1 @@
-https://mizdebski77.github.io/tasklist/
+https://mizdebski77.github.io/Tasks-List-VanillaJS/
